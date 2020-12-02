@@ -1,0 +1,16 @@
+# 数据库信息
+db:
+  url: 'jdbc:mysql://localhost:3306/foodie?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=Asia/Shanghai'
+  username: 'root'
+  password:
+  
+# redis信息
+redis:
+  host: 120.78.80.109
+  database: 1
+  password: '{cipher}2cfffc3747cf4b353c14b100d030df6fc8c8af77e0ac3dd6e6893f9f4b98c0b4'
+ 
+ # es信息
+ es:
+  cluster-nodes: 127.0.0.1:9300
+  cluster-name: es 
