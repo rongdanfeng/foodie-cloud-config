@@ -7,6 +7,6 @@ db:
 # redis信息
 redis:
   host: 120.78.80.109
-  database: '1'
+  database: 1
   password: '{cipher}2cfffc3747cf4b353c14b100d030df6fc8c8af77e0ac3dd6e6893f9f4b98c0b4'
   
