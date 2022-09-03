@@ -3,7 +3,11 @@ db:
   url: 'jdbc:mysql://localhost:3306/foodie?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=Asia/Shanghai'
   username: 'root'
   password:
-  
+#功能开关一开启/关闭注册功能
+userservice:
+  registration:
+    disabled: true
+
 # redis信息
 rd:
   host: 120.78.80.109
